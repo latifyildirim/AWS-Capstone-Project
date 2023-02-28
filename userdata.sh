@@ -7,7 +7,7 @@ cd /home/ubuntu/
 TOKEN="----------Tokenini buraya yazz------------"
 git clone https://$TOKEN@github.com/latifyildirim/aws-capstone-project.git
 cd /home/ubuntu/aws-capstone-project
-apt install python3-pip -y
+apt install python3-pip -y   # python-pip olarak calisti. Ama ise yaramadi.
 apt-get install python3.7-dev libmysqlclient-dev -y
 pip3 install -r requirements.txt
 cd /home/ubuntu/aws-capstone-project/src
